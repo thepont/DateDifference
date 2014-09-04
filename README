@@ -1,0 +1,37 @@
+This application calculates the date upto, but not including the day requested, all input is from standard input.
+
+To run the application execute the following:
+
+	java -jar dist/DateDifference.jar
+
+Examples:
+
+A simple one day comparison from 1AD.
+Input:
+0001 01 01, 0001 01 02
+Output:
+0001 01 01, 0001 01 02 1
+
+Length of the second world war.
+Input:
+1939 09 01, 1945 09 02 
+Output:
+1939 09 01, 1945 09 02 2193
+
+Days between the First Fleet and Federation
+Input:
+1788 01 18, 1901 01 01
+Output:
+1788 01 18, 1901 01 01 41255
+
+The rise and fall of Sun Microsystems
+Input:
+1982 02 24, 2010 01 27
+Output:
+1982 02 24, 2010 01 27 10199
+
+Back to the Future part 2 travel
+Input:
+1985 10 26, 2015 10 21
+Output:
+1985 10 26, 2015 10 21 10952
